@@ -7,8 +7,19 @@
         {% seo title=false %}
         <meta name="HandheldFriendly" content="True" />
         <link rel="shortcut icon" href="/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     </head>
     <body>
+     <div id="navbar">
+	    <ul class="nav nav-tabs">
+        <li class="active"><a href="/"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
+        <li><a href="/location.html">Location</a></li>
+        <li><a href="/calculator.html">Calculator</a></li>
+        <li><a href="/db.html">Database</a></li>
+    </div>
         {{ content }}
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
