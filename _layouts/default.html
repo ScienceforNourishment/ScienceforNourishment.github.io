@@ -14,7 +14,8 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#df4949">
 
     <link href="/assets/css/all.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Courgette|Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Courgette|Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -56,29 +57,6 @@
             </div>
         </div>
     </footer>
-    <script>
-        $(document).ready(function () {
-            $('.post-content img[alt]').each(function () {
-                $(this).wrap('<a target="_blank" href="' + this.src + '" class="thumbnail"></a>');
-                $('<p class="text-center">' + this.alt + '</p>').insertAfter(this);
-
-                var theImage = new Image();
-                theImage.src = $(this).attr("src");
-                var original = $(this);
-
-                $(theImage).load(function () {
-                    if (this.height > this.width) $(original).css("width", "32%");
-                });
-            });
-            (function () {
-                var css = document.createElement('link');
-                css.href = '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css';
-                css.rel = 'stylesheet';
-                css.type = 'text/css';
-                document.getElementsByTagName('head')[0].appendChild(css);
-            })();
-        });
-    </script>
 </body>
 
 </html>
