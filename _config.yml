@@ -1,3 +1,4 @@
+theme: jekyll-theme-time-machine
 gems:
   - jekyll-redirect-from
   - jekyll-seo-tag
