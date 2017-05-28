@@ -1,0 +1,158 @@
+/*Global*/
+
+body {
+	background-image: url("http://wallpapercave.com/wp/CyT83yY.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: right top;
+    background-attachment: fixed;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+.modal {
+    display: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5px auto;
+    border: 1px solid #888;
+    width: 90%;
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0; 
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+#toggle{
+	position: relative;
+}
+h1 {
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: black;
+}
+#slide {
+	max-width: 500px;
+	max-height: 500px;
+	margin-left:auto; 
+    margin-right:auto;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+#divSlide {
+	background-color: white;
+	width: 50%;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	margin-left:auto; 
+    margin-right:auto;
+}
+#header {
+	position: relative;
+	top: 0px;
+	background-color: white;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+form {
+    position: relative;
+    text-align: center;
+    font-family: Verdana;
+}
+.center {
+    margin-left:auto; 
+    margin-right:auto;
+	text-align: center;
+}
+#navbar {
+	background-color: white;
+}
+div {
+	border-color:black;
+	border-width: medium;
+}
+a {
+	color:black;
+}
+
+/* Location */
+
+#consultedIP {
+    position: relative;
+    background-color: #ab2
+}
+
+#ip {
+	background-color: white;
+	width: 90%;
+	top: 70px;
+	position: relative;
+	font-size: 12px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+/* Calculator */
+
+#total {
+	background-color: white;
+	width: 40%;
+	top: 70px;
+	position: relative;
+	font-size: 40px;
+	font-weight: bold;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+
+}
+
+/*Database*/
+
+#label1 {
+    color: black;
+	font-size: 16px;
+}
+#consultedSlave {
+    position: relative;
+    background-color: white;
+}
+#tableSlave {
+	position: relative;
+	background-color: white;
+}
