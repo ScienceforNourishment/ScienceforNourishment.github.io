@@ -1,19 +1,135 @@
 ---
 layout: default
 ---
+{% assign author = site.authors[page.author] %}
 <article itemscope itemtype="http://schema.org/BlogPosting">
     <meta itemprop="name" content="{{page.title}}"/>
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+        <meta itemprop="name" content="Tamales con Pasaporte">
+    </div>
     <meta itemprop="image" content="{{page.image}}"/>
-            <h1 itemprop="headline">{{page.title}}</h1>
+    <div class="coverpost" style="background-image: url('{{page.image}}')">
+        <div class="logo-text">
+            <h1 itemprop="headline">{{page.title}}</h1><br />
             <h2>{{page.date | date_to_string}} - {{author.name}}</h2>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-md-8 posts">
                 <div class="post">
                     <div class="post-content" itemprop="articleBody">{{content}}</div>
-                    
+                    <hr />
+
+                    <div class="hidden-sm hidden-xs">
+                        <p>Continua leyendo m&aacute;s art&iacute;culos sobre: </p>
+                        <ul class="list-inline list-post-tags">
+                            {% for tag in page.tags %}
+                            <li><a href="/tag/{{tag}}">#{{tag}}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+
                     <div class="post-meta">
-                        Fecha: <span itemprop="datePublished"> {{page.date | date_to_string}}</span>
+                        Fecha: <span itemprop="datePublished"> {{page.date | date_to_string}}</span>- autor
+                        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                            <span itemprop="name" class="author-name">{{author.name}}</span>
+                        </span>
+                    </div>
+                    <hr />
+                    {% include mailchimp.html %}
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="disqus_thread"></div>
+                            <script type="text/javascript">
+                                var disqus_shortname = 'tamalesconpasaporte';
+                                var disqus_identifier = '';
+                                var disqus_config = function () {
+                                    this.language = "es_MX";
+                                };
+                                /* * * DON'T EDIT BELOW THIS LINE * * */
+                                (function () {
+                                    var dsq = document.createElement('script');
+                                    dsq.type = 'text/javascript';
+                                    dsq.async = true;
+                                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                                })();
+                            </script>
+                            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <hr />
+                            <p>Continua leyendo con nosotros. Podr&iacute;an interesarte los siguientes art&iacute;culo:</p>
+                        </div>
+                        {% if page.previous %}
+                        <div class="col-md-6" style="padding: 0; min-height: 200px; overflow: hidden">
+                            <div style="background-image: url({{page.previous.image}}); background-size: cover; opacity: 0.4; float: right; width: 100%; min-height: 200px;"></div>
+                            <div style="position: absolute; margin: 10px;">
+                                <h2><a href="{{page.previous.url}}">{{page.previous.title}}</a></h2>
+                                <p>{{page.previous.excerpt | strip_html | truncate: 30 }}...</p>
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% if page.next %}
+                        <div class="col-md-6" style="padding: 0; min-height: 200px; overflow: hidden">
+                            <div style="background-image: url({{page.next.image}}); background-size: cover; opacity: 0.4; float: right; width: 100%; min-height: 200px;"></div>
+                            <div style="position: absolute; margin: 10px;">
+                                <h2><a href="{{page.next.url}}">{{page.next.title}}</a></h2>
+                                <p>{{page.next.excerpt | strip_html | truncate: 30 }}...</p>
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="about">
+                    <div class="author-image" style="border: 0">
+                        <img src="{{author.image}}" alt="{{author.name}}" title="{{author.name}}" />
+                    </div>
+                    <div class="author-info">
+                        <h2 rel="author">{{author.name}}</h2>
+                        <p class="hidden-sm hidden-xs">{{author.bio}}</p>
+                    </div>
+                    <hr class="divider hidden-sm hidden-xs">
+                    <div class="share-icons">
+                        Compartir:
+                        <ul class="list-inline list-share-icons">
+                            <li>
+                                <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{page.url}}"
+                                   onclick="window.open(this.href, 'facebook-share', 'width=580,height=296');return false;"><i class="fa fa-facebook fb-tooltip"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/share?text={{page.title}}&amp;url={{ site.url }}{{page.url}}"
+                                   onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter tw-tooltip"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/share?url={{ site.url }}{{page.url}}"
+                                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="fa fa-google-plus gp-tooltip"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <p>Encuentra m&aacute;s art&iacute;culos sobre:</p>
+                    <ul class="list-inline list-post-tags">
+                        {% for tag in page.tags %}
+                        <li><a href="/tag/{{tag}}">#{{tag}}</a></li>
+                        {% endfor %}
+                        <li><a href="{{page.image}}" alt="Tag image">Tag image</a></li>
+                    </ul>
+                    <hr class="divider hidden-sm hidden-xs">
+                    <div style="text-align: center" class="hidden-sm hidden-xs">
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- Tamalbox -->
+                        <ins class="adsbygoogle"
+                             style="display: inline-block; width: 290px; height: 600px"
+                             data-ad-client="ca-pub-7312968410890852"
+                             data-ad-slot="1025056821"></ins>
+                        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
                     </div>
                 </div>
             </div>

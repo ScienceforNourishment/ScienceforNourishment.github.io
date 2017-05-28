@@ -3,24 +3,85 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Science for Nourishment</title>
+        <title>{{page.title}} - Tamales con Pasaporte</title>
         {% seo title=false %}
+        <meta name="google-site-verification" content="N9BewCljjj1CcRaE1gDkxtHPrEwXD_TrJJS9ubfLsz4" />
+        <meta name="msvalidate.01" content="4B0705761BCEDFA5FBFA32CA8C7F919B" />
         <meta name="HandheldFriendly" content="True" />
+        <meta name="theme-color" content="#df4949">
+        <meta name="msapplication-navbutton-color" content="#df4949">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#df4949">
         <link rel="shortcut icon" href="/favicon.ico">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <link type="text/css" rel="stylesheet" href="/css/stylesheet.css"/>
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+        <link href="/assets/css/all.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Courgette|Lato:400,700' rel='stylesheet' type='text/css'>
     </head>
     <body>
-     <div id="navbar">
-	    <ul class="nav nav-tabs">
-        <li class="active"><a href="/"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
-        <li><a href="/location.html">About us</a></li>
-        <li><a href="/calculator.html">Projects</a></li>
-        <li><a href="/db.html">Contact us</a></li>
-	    </ul>
-    </div>
+        {% include nav.html %}
         {{ content }}
-        <script src="js/bootstrap.min.js"></script>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <p><a href="http://www.tamalesconpasaporte.com/">Tamales con Pasaporte</a> &copy; 2015<br/>
+                        Powered by <a href="http://github.com" data-proofer-ignore title="GitHub Pages"><i class="fa fa-github-alt"></i></a> with <i class="fa fa-heart"></i>                        </p>
+                    </div>
+                    <div class="col-md-5">
+                        <ul class="list-inline list-footer-social">
+                            <li><a href="https://www.facebook.com/Tamalesconpasaporte" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/TCPasaporte" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="http://instagram.com/tamales_con_pasaporte" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.youtube.com/playlist?list=PLeedmGY8zVnDrluDHR6JG4otmwbThu8QV" data-proofer-ignore title="YouTube"><i class="fa fa-youtube"></i></a></li>
+                            <li><a href="http://www.tamalesconpasaporte.com/rss/" title="RSS"><i class="fa fa-rss"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="/assets/js/custom.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.post-content img[alt]').each(function () {
+                    $(this).wrap('<a target="_blank" href="' + this.src + '" class="thumbnail"></a>');
+                    $('<p class="text-center">' + this.alt + '</p>').insertAfter(this);
+
+                    var theImage = new Image();
+                    theImage.src = $(this).attr("src");
+                    var original = $(this);
+
+                    $(theImage).load(function () {
+                        if (this.height > this.width) $(original).css("width", "32%");
+                    });
+                });
+
+                if ($('#instafeed').length > 0) {
+                    new Instafeed({
+                        get: 'user',
+                        userId: 1591756528,
+                        limit: parseInt(screen.width / 320) + 1,
+                        accessToken: '1591756528.1677ed0.f87eabac118c43c3b17042ad33f69e3f',
+                        resolution: 'low_resolution'
+                    }).run();
+                }
+            });
+
+            (function () {
+                var css = document.createElement('link');
+                css.href = '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css';
+                css.rel = 'stylesheet';
+                css.type = 'text/css';
+                document.getElementsByTagName('head')[0].appendChild(css);
+            })();
+
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-132920-17', 'auto');
+            ga('send', 'pageview');
+        </script>
     </body>
 </html>
