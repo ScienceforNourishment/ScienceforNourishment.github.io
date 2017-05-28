@@ -1,1 +1,8 @@
 theme: jekyll-theme-time-machine
+gems:
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  
+paginate: 6
+permalink: /:title/
