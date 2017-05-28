@@ -5,3 +5,7 @@ gems:
   
 paginate: 6
 permalink: /:title/
+
+authors:
+  alejandro:
+    name: Alejandro

@@ -1,13 +1,10 @@
----
-layout: default
----
-{% assign author = site.authors[page.author] %}
+--- layout: default --- {% assign author = site.authors[page.author] %}
 <article itemscope itemtype="http://schema.org/BlogPosting">
-    <meta itemprop="name" content="{{page.title}}"/>
+    <meta itemprop="name" content="{{page.title}}" />
     <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
         <meta itemprop="name" content="Tamales con Pasaporte">
     </div>
-    <meta itemprop="image" content="{{page.image}}"/>
+    <meta itemprop="image" content="{{page.image}}" />
     <div class="coverpost" style="background-image: url('{{page.image}}')">
         <div class="logo-text">
             <h1 itemprop="headline">{{page.title}}</h1><br />
@@ -40,23 +37,26 @@ layout: default
                     <div class="row">
                         <div class="col-md-12">
                             <div id="disqus_thread"></div>
-                            <script type="text/javascript">
-                                var disqus_shortname = 'tamalesconpasaporte';
-                                var disqus_identifier = '';
+                            <script>
+                                /**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                                /*
                                 var disqus_config = function () {
-                                    this.language = "es_MX";
+                                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
                                 };
-                                /* * * DON'T EDIT BELOW THIS LINE * * */
-                                (function () {
-                                    var dsq = document.createElement('script');
-                                    dsq.type = 'text/javascript';
-                                    dsq.async = true;
-                                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                                */
+                                (function () { // DON'T EDIT BELOW THIS LINE
+                                    var d = document, s = d.createElement('script');
+                                    s.src = 'https://science-for-nourishment.disqus.com/embed.js';
+                                    s.setAttribute('data-timestamp', +new Date());
+                                    (d.head || d.body).appendChild(s);
                                 })();
+
                             </script>
-                            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
                         </div>
                     </div>
                     <div class="row">
@@ -72,8 +72,7 @@ layout: default
                                 <p>{{page.previous.excerpt | strip_html | truncate: 30 }}...</p>
                             </div>
                         </div>
-                        {% endif %}
-                        {% if page.next %}
+                        {% endif %} {% if page.next %}
                         <div class="col-md-6" style="padding: 0; min-height: 200px; overflow: hidden">
                             <div style="background-image: url({{page.next.image}}); background-size: cover; opacity: 0.4; float: right; width: 100%; min-height: 200px;"></div>
                             <div style="position: absolute; margin: 10px;">
@@ -99,16 +98,13 @@ layout: default
                         Compartir:
                         <ul class="list-inline list-share-icons">
                             <li>
-                                <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{page.url}}"
-                                   onclick="window.open(this.href, 'facebook-share', 'width=580,height=296');return false;"><i class="fa fa-facebook fb-tooltip"></i></a>
+                                <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{page.url}}" onclick="window.open(this.href, 'facebook-share', 'width=580,height=296');return false;"><i class="fa fa-facebook fb-tooltip"></i></a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/share?text={{page.title}}&amp;url={{ site.url }}{{page.url}}"
-                                   onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter tw-tooltip"></i></a>
+                                <a href="https://twitter.com/share?text={{page.title}}&amp;url={{ site.url }}{{page.url}}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter tw-tooltip"></i></a>
                             </li>
                             <li>
-                                <a href="https://plus.google.com/share?url={{ site.url }}{{page.url}}"
-                                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="fa fa-google-plus gp-tooltip"></i></a>
+                                <a href="https://plus.google.com/share?url={{ site.url }}{{page.url}}" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="fa fa-google-plus gp-tooltip"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -123,11 +119,11 @@ layout: default
                     <div style="text-align: center" class="hidden-sm hidden-xs">
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <!-- Tamalbox -->
-                        <ins class="adsbygoogle"
-                             style="display: inline-block; width: 290px; height: 600px"
-                             data-ad-client="ca-pub-7312968410890852"
-                             data-ad-slot="1025056821"></ins>
-                        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+                        <ins class="adsbygoogle" style="display: inline-block; width: 290px; height: 600px" data-ad-client="ca-pub-7312968410890852"
+                            data-ad-slot="1025056821"></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
                     </div>
                 </div>
             </div>
