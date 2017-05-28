@@ -1,54 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{page.title}} - Science for Nourishment</title>
-        {% seo title=false %}
-        <meta name="google-site-verification" content="N9BewCljjj1CcRaE1gDkxtHPrEwXD_TrJJS9ubfLsz4" />
-        <meta name="msvalidate.01" content="4B0705761BCEDFA5FBFA32CA8C7F919B" />
-        <meta name="HandheldFriendly" content="True" />
-        <meta name="theme-color" content="#df4949">
-        <meta name="msapplication-navbutton-color" content="#df4949">
-        <meta name="apple-mobile-web-app-status-bar-style" content="#df4949">
 
-        <link href="/assets/css/all.css" rel="stylesheet">
-        <link href='http://fonts.googleapis.com/css?family=Courgette|Lato:400,700' rel='stylesheet' type='text/css'>
-    </head>
-    <body>
-        {{ content }}
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7">
-                        <p><a href="https://sciencefornourishment.github.io/">Science for Nourishment</a> &copy; 2017<br/>
-                        Powered by <a href="http://github.com" data-proofer-ignore title="GitHub Pages"><i class="fa fa-github-alt"></i></a> with <i class="fa fa-heart"></i>                        </p>
-                    </div>
-                    <div class="col-md-5">
-                        <ul class="list-inline list-footer-social">
-                            <li><a href="https://www.facebook.com/" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://twitter.com/" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="http://instagram.com/" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{page.title}} - Science for Nourishment</title>
+    {% seo title=false %}
+    <meta name="google-site-verification" content="N9BewCljjj1CcRaE1gDkxtHPrEwXD_TrJJS9ubfLsz4" />
+    <meta name="msvalidate.01" content="4B0705761BCEDFA5FBFA32CA8C7F919B" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="theme-color" content="#df4949">
+    <meta name="msapplication-navbutton-color" content="#df4949">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#df4949">
+
+    <link href="/assets/css/all.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Courgette|Lato:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <nav class="navbar navbar-default" role="navigation" id="main-navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#tnavbar">
+                <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
+            </button>
+                <a class="navbar-brand" href="/">Science for Nourishment</a>
+            </div>
+            <div class="collapse navbar-collapse" id="tnavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/" title="Home">
+                        <i class="fa fa-globe"></i><span class="sr-only">&nbsp;Home</span>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    {{ content }}
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <p><a href="https://sciencefornourishment.github.io/">Science for Nourishment</a> &copy; 2017<br/> Powered
+                        by <a href="http://github.com" data-proofer-ignore title="GitHub Pages"><i class="fa fa-github-alt"></i></a>                        with <i class="fa fa-heart"></i> </p>
+                </div>
+                <div class="col-md-5">
+                    <ul class="list-inline list-footer-social">
+                        <li><a href="https://www.facebook.com/" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="http://instagram.com/" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
                 </div>
             </div>
-        </footer>
-        <script src="/assets/js/custom.js"></script>
-        <script>
-            $(document).ready(function () {
-                $('.post-content img[alt]').each(function () {
-                    $(this).wrap('<a target="_blank" href="' + this.src + '" class="thumbnail"></a>');
-                    $('<p class="text-center">' + this.alt + '</p>').insertAfter(this);
+        </div>
+    </footer>
+    <script>
+        $(document).ready(function () {
+            $('.post-content img[alt]').each(function () {
+                $(this).wrap('<a target="_blank" href="' + this.src + '" class="thumbnail"></a>');
+                $('<p class="text-center">' + this.alt + '</p>').insertAfter(this);
 
-                    var theImage = new Image();
-                    theImage.src = $(this).attr("src");
-                    var original = $(this);
+                var theImage = new Image();
+                theImage.src = $(this).attr("src");
+                var original = $(this);
 
-                    $(theImage).load(function () {
-                        if (this.height > this.width) $(original).css("width", "32%");
-                    });
+                $(theImage).load(function () {
+                    if (this.height > this.width) $(original).css("width", "32%");
                 });
+            });
             (function () {
                 var css = document.createElement('link');
                 css.href = '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css';
@@ -56,9 +77,8 @@
                 css.type = 'text/css';
                 document.getElementsByTagName('head')[0].appendChild(css);
             })();
-            ga('create', 'UA-132920-17', 'auto');
-            ga('send', 'pageview');
-            });
-        </script>
-    </body>
+        });
+    </script>
+</body>
+
 </html>
