@@ -1,13 +1,162 @@
 ---
 layout: default
-title: "Science for Nourishment"
+title: "Blog de Anécdotas y Consejos para los viajeros. Desde México por el mundo, conociendo la cultura local por medio de su comida"
 ---
-<ul>
-  {% for post in paginator.posts %}
-    <li>
-      <a href="{{post.url}}">{{post.title}}</a>
-      <br />
-      <p itemprop="description">{{post.excerpt | strip_html}}...</p>
-    </li>
-  {% endfor %}
-</ul>
+<div class="header-wrap">
+    <div id="instafeed"></div>
+    <header class="container header">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="logo-text">
+                    <h1>Tamales con Pasaporte</h1>
+                    <h2 class="hidden-xs hidden-sm">Blog de Anécdotas y Consejos para los viajeros. Desde México por el mundo, conociendo la cultura local por medio de su comida</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+
+<div class="content-wrap">
+    <div class="container">
+        <div class="row">
+            <section class="col-md-8 posts" itemscope itemtype="http://schema.org/Blog">
+                {% for post in paginator.posts %}
+                <article class="post object" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+                    <meta itemprop="name" content="{{post.title}}"/>
+                    <meta itemprop="image" content="{{post.image}}"/>
+                    <div class="post-header">
+                        <div class="post-title">
+                            <h2 itemprop="headline"><a href="{{post.url}}">{{post.title}}</a></h2>
+                        </div>
+                        <div class="post-date hidden-sm hidden-xs">
+                            <span title="{{post.date | date:"%Y" }}">{{post.date | date:"%d"}}</span>{{post.date | date:"%b"}}
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-image" style="background-image: url({{post.image}});">&nbsp;</div>
+                        <p itemprop="description">{{post.excerpt | strip_html}}...</p>
+                        <a href="{{post.url}}" class="btn btn-success">Continuar leyendo</a>
+                    </div>
+                    <hr />
+                    <div class="post-meta">
+                        Fecha: <span itemprop="datePublished">{{post.date| date_to_string}}</span><br />
+                        <div class="share-icons">
+                            Comparte en Redes Sociales:
+                            <ul class="list-inline list-share-icons">
+                                <li>
+                                    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{post.url}}"
+                                       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><i class="fa fa-facebook fb-tooltip"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/share?text={{post.title}}&amp;url={{ site.url }}{{post.url}}"
+                                       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter tw-tooltip"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://plus.google.com/share?url={{ site.url }}{{post.url}}"
+                                       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="fa fa-google-plus gp-tooltip"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <hr class="divider" />
+                    </div>
+                </article>
+                {% endfor %}<article class="post">
+                    <h3>No te pierdas ninguna actualizaci&oacute;n</h3>
+                    <p>Suscribete a la lista de correo y recibe nuestras novedades.</p>
+                    <!-- Begin MailChimp Signup Form -->
+                    <div id="mc_embed_signup">
+                        <form action="//tamalesconpasaporte.us10.list-manage.com/subscribe/post?u=30b9fd87f70a61f35bd017ad2&amp;id=c2dea4c4f0" method="post"
+                              id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll" style="text-align: center">
+                                <div class="mc-field-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-envelope-o fa-2x"></i></span>
+                                        <input type="email" value="" name="EMAIL" class="required email input-lg" id="mce-EMAIL"
+                                               style="width: 80%"
+                                               placeholder="Tu correo electronico" />
+                                    </div>
+                                </div>
+                                <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;"><input type="text" name="b_30b9fd87f70a61f35bd017ad2_c2dea4c4f0" tabindex="-1" value=""></div>
+                                <br />
+                                <div class="clear">
+                                    <input type="submit" value="Suscribirte" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success btn-lg btn-block">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!--End mc_embed_signup-->
+                </article>
+            </section>
+            <div class="col-md-4">
+                <div class="about">
+                    <div class="text-center">
+                        <img alt="Rox y Geo" src="/assets/images/about.jpg" class="img-thumbnail" style="border-radius: 80px;">
+                    </div>
+                    <p>
+                        Somos Rox y Geo, nos gusta viajar y comer. Este blog es acerca de los lugares que hemos viajado,
+                        de lo que hemos aprendido y sobre todo de como nos hemos divertido. Si tienes cualquier duda sobre alguno de los destinos
+                        que hemos visitado, contactanos por medio de las redes sociales m&aacute;s abajo.
+                    </p>
+                    <p>
+                        Esperamos mucho que encuentres un poco de informaci&oacute;n e inspiraci&oacute;n
+                        para tus viajes, o simplemente pases un buen momento leyendo sobre nuestras
+                        aventuras visitando M&eacute;xico y el mundo.
+                    </p>
+                    <hr class="divider">
+                    <div id="fb-root"></div>
+                    <script>
+                        (function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id)) return;
+                            js = d.createElement(s); js.id = id;
+                            js.src = "//connect.facebook.net/es_MX/sdk.js#xfbml=1&version=v2.0";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));
+                    </script>
+                    <div class="fb-like-box" data-href="https://www.facebook.com/Tamalesconpasaporte" data-width="280" data-height="320"
+                         data-colorscheme="light" data-show-faces="true" data-header="true"
+                         data-stream="false" data-show-border="true"></div>
+                    <div style="text-align: center" class="hidden-sm hidden-xs">
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- Tamalbox -->
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:290px;height:600px"
+                             data-ad-client="ca-pub-7312968410890852"
+                             data-ad-slot="1025056821"></ins>
+                        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="posts-pagination">
+    <div class="container">
+        <div class="row">
+            {% if paginator.next_page %}
+            <div class="col-md-4 newer-posts">
+                <a href="{{ paginator.next_page_path }}" class="previous">
+                    <i class="fa fa-chevron-left"></i>
+                    <span>Art&iacute;culos anteriores</span>
+                </a>
+            </div>
+            {% endif %}
+            <div class="col-md-4 page-num">
+                <span>P&aacute;gina  {{ paginator.page }} de {{ paginator.total_pages }}</span>
+            </div>
+            {% if paginator.previous_page %}
+            <div class="col-md-4 older-posts">
+                <a href="{{ paginator.previous_page_path }}" class="next">
+                    <span>Art&iacute;culos nuevos</span>
+                    <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
