@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Disculpe, hay una simbiosis en mi vaso"
+author: alejandro
 ---
 Después de estar pensando cual sería el mejor modo de iniciar con el blog, recordé que tenía que preparar un nuevo sustrato (alimento) para mis tibicos; así que dije, por qué no empezar contándoles sobre ellos.
 

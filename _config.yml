@@ -8,4 +8,10 @@ permalink: /:title/
 
 authors:
   alejandro:
-    name: Alejandro
+    name: Alejandro Perez
+    image:
+    bio: Hola, soy Chuy
+  ivan:
+    name: Ivan
+    image:
+    bio: Hola, soy Ivan
