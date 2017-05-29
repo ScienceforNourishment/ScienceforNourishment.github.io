@@ -20,7 +20,7 @@ title: "Science for Nourishment"
         <div class="row">
             <section class="col-md-8 posts" itemscope itemtype="http://schema.org/Blog">
                 {% for post in paginator.posts %}
-                <article class="post object" style="border:1px solid black" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
+                <article class="post object" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
                     <meta itemprop="name" content="{{post.title}}"/>
                     <meta itemprop="image" content="{{post.image}}"/>
                     <div class="post-header">
