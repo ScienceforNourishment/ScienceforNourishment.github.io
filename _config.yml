@@ -9,7 +9,7 @@ permalink: /:title/
 authors:
   alejandro:
     name: Alejandro Perez
-    image: /assets/alejandro.jpg/
+    image: /assets/alejandro.jpg
     bio: Hola, soy Chuy
   ivan:
     name: Ivan
