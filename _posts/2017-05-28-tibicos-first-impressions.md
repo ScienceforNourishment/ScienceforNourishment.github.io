@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Disculpe, hay una simbiosis en mi vaso"
+title:  "Tibicos first impressions"
 author: alejandro
 image: /assets/tibicos28_05_17.jpg, /assets/tibicos2_28_05_17.jpg
 ---
