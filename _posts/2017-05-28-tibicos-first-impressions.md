@@ -2,6 +2,7 @@
 layout: post
 title:  "Tibicos first impressions"
 author: alejandro
+tags: tibicos
 image: /assets/tibicos28_05_17.jpg, /assets/tibicos2_28_05_17.jpg
 ---
 Continuando con la publicación pasada, les narrare sobre mi relación amorosa con los tibicos conocidos también como kéfir de agua.
@@ -10,6 +11,7 @@ Estas colonias de microorganismos están compuestas en su mayor parte por bacter
 
 
 ![Tibicos esperando su nuevo hogar](/assets/tibicos28_05_17.jpg)
+**Tibicos esperando su nuevo hogar**
 
 El punto de tener tibicos es la deliciosa y funcional bebida que producen. Inicialmente necesitamos conseguir los SCOBYs, esto resulta sencillo en la mayoría de los casos, ya que producir tibicos constantemente te lleva a tener una sobreproducción de colonias, por lo que la gente suele donar las que les sobran, por ejemplo, yo siempre estoy buscando a quien donarle.
 
@@ -18,9 +20,9 @@ Teniendo listo nuestro cultivo de tibicos analicemos que es lo que necesitamos p
 **Formulación**
 Básicamente esto consiste en:
 
-*Tibicos
-*Piloncillo
-*Agua
+    Tibicos
+    Piloncillo
+    Agua
 
 **Proceso**
 
