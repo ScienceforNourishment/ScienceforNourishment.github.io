@@ -66,48 +66,22 @@ title: "Science for Nourishment - ¿Quienes somos?"
                     </p>
                     <hr class="divider">
                     <div id="fb-root"></div>
-                    <script>
-                        (function (d, s, id) {
-                            var js, fjs = d.getElementsByTagName(s)[0];
-                            if (d.getElementById(id)) return;
-                            js = d.createElement(s); js.id = id;
-                            js.src = "//connect.facebook.net/es_MX/sdk.js#xfbml=1&version=v2.0";
-                            fjs.parentNode.insertBefore(js, fjs);
-                        }(document, 'script', 'facebook-jssdk'));
-                    </script>
-                    <div class="fb-like-box" data-href="https://www.facebook.com/sciencefornourishment/" data-width="280" data-height="320"
-                         data-colorscheme="light" data-show-faces="true" data-header="true"
-                         data-stream="false" data-show-border="true"></div>
-                    <div style="text-align: center" class="hidden-sm hidden-xs">
+                        <script>
+                            (function (d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0];
+                                if (d.getElementById(id)) return;
+                                js = d.createElement(s); js.id = id;
+                                js.src = "//connect.facebook.net/es_MX/sdk.js#xfbml=1&version=v2.0";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));
+                        </script>
+                        <div class="fb-like-box" data-href="https://www.facebook.com/sciencefornourishment/" data-width="280" data-height="320"
+                            data-colorscheme="light" data-show-faces="true" data-header="true"
+                            data-stream="false" data-show-border="true"></div>
+                        <div style="text-align: center" class="hidden-sm hidden-xs">
+                        </div>
                     </div>
                 </div>
-                </div>
             </div>
         </div>
     </div>
-</div>
-<div class="posts-pagination">
-    <div class="container">
-        <div class="row">
-            {% if paginator.next_page %}
-            <div class="col-md-4 newer-posts">
-                <a href="{{ paginator.next_page_path }}" class="previous">
-                    <i class="fa fa-chevron-left"></i>
-                    <span>Art&iacute;culos anteriores</span>
-                </a>
-            </div>
-            {% endif %}
-            <div class="col-md-4 page-num">
-                <span>P&aacute;gina  {{ paginator.page }} de {{ paginator.total_pages }}</span>
-            </div>
-            {% if paginator.previous_page %}
-            <div class="col-md-4 older-posts">
-                <a href="{{ paginator.previous_page_path }}" class="next">
-                    <span>Art&iacute;culos nuevos</span>
-                    <i class="fa fa-chevron-right"></i>
-                </a>
-            </div>
-            {% endif %}
-        </div>
-    </div>
-</div>
