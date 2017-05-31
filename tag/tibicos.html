@@ -1,0 +1,71 @@
+---
+layout: default
+---
+<div id="fb-root"></div>
+<script>
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/es_MX/sdk.js#xfbml=1&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+<div class="coverpost" style="background-image: url('{{page.image}}')">
+    <div class="logo-text">
+        <h1>{{page.title}}</h1><br /><h2>{{page.description}}</h2>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 posts">
+            {% for post in site.tags[page.tag] %}
+            <article class="post">
+                <div class="post-header">
+                    <div class="post-title"><h2><a href="{{post.url}}">{{post.title}}</a></h2></div>
+                    <div class="post-date hidden-sm hidden-xs">
+                        <span title="{{post.date | date:"%Y" }}">{{post.date | date:"%d"}}</span>
+                        {{post.date | date:"%b"}}
+                    </div>
+                </div>
+                <div class="post-content">
+                    <div class="post-image" style="background-image: url({{post.image}});">&nbsp;</div>
+                    <p>{{post.excerpt | strip_html}}...</p>
+                    <a href="{{post.url}}" class="btn btn-success">Continuar leyendo</a>
+                </div>
+                <hr />
+                <div class="post-meta">
+                    Fecha: {{post.date| date_to_string}}
+                    <div class="share-icons">
+                        Comparte en Redes Sociales:
+                        <ul class="list-inline list-share-icons">
+                            <li>
+                                <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{post.url}}"
+                                   onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><i class="fa fa-facebook fb-tooltip"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/share?text={{post.title}}&amp;url={{ site.url }}{{post.url}}"
+                                   onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter tw-tooltip"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/share?url={{ site.url }}{{post.url}}"
+                                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="fa fa-google-plus gp-tooltip"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="divider" />
+            </article>
+            {% endfor %}
+        </div>
+        <div class="col-md-4">
+            <div class="about">
+                <div class="fb-like-box" data-href="https://www.facebook.com/sciencefornourishment/" data-width="280" data-height="320"
+                     data-colorscheme="light" data-show-faces="true" data-header="true"
+                     data-stream="false" data-show-border="true"></div>
+                <hr class="divider">
+                <hr class="divider" />
+            </div>
+        </div>
+    </div>
+</div>
