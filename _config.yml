@@ -9,8 +9,10 @@ permalink: /:title/
 authors:
   alejandro:
     name: Alejandro Perez
-    image: /assets/alejandro.jpg
-    bio: Hola, soy Chuy
+    image: /assets/authors/alejandro.jpg
+    bio: Food scientist, Sommelier y Homebrewer
+         Egresado de la Universidad de Guadalajara e interesado en fermentar lo que sea que encuentre, soy un ñoño que disfruta de aprender y compartir con los demás mientras probamos algun nuevo alimento. En mi tiempo libre me gusta informarme sobre historia y antropologia, además de practicar tai chi chuan por mi cuenta.
+         Adoro viajar para conocer la forma en la que se alimentan las personas y de donde provienen esos alimentos. Mi comida favorita es el cochito horneado.
   ivan:
     name: Ivan
     image:
