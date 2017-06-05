@@ -55,7 +55,6 @@ title: "Science for Nourishment"
                 <div class="postdivider">
                     <hr>
                 </div>
-                    {% endfor %}
             <div class="fill"></div>
             </section>
             <div class="col-md-4">
@@ -94,25 +93,21 @@ title: "Science for Nourishment"
 <div class="posts-pagination">
     <div class="container">
         <div class="row">
-            {% if paginator.next_page %}
             <div class="col-md-4 newer-posts">
                 <a href="{{ paginator.next_page_path }}" class="previous">
                     <i class="fa fa-chevron-left"></i>
                     <span>Art&iacute;culos anteriores</span>
                 </a>
             </div>
-            {% endif %}
             <div class="col-md-4 page-num">
                 <span>P&aacute;gina  {{ paginator.page }} de {{ paginator.total_pages }}</span>
             </div>
-            {% if paginator.previous_page %}
             <div class="col-md-4 older-posts">
                 <a href="{{ paginator.previous_page_path }}" class="next">
                     <span>Art&iacute;culos nuevos</span>
                     <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
-            {% endif %}
         </div>
     </div>
 </div>
