@@ -4,6 +4,6 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 @media(max-width:480px){.logo-text h1{font-size:40px}.container{width:100%}.post{padding:20px 25px}div.post-image{height:120px;background-position:center -20px;}}@media(min-width:1200px){.container{width:1100px}}.page{border-radius:20px}
 @media(max-width:767px){.navbar-default .navbar-nav .open .dropdown-menu>li>a{color:#fff}
 body{background-image:none;}}
-div.coverpost{background-position:50%;background-repeat:no-repeat;background-size:cover;min-height:600px;margin-top:-20px}div.coverpost .logo-text{margin:20px auto}
+div.coverpost{background-position:50%;background-repeat:no-repeat;background-size:cover;min-height:600px;margin-top:-20px;border-bottom: 30px solid transparent;border-image: url(/assets/darkwood.jpg) 30 round}div.coverpost .logo-text{margin:20px auto}
 .dropdown-menu{min-width:200px}.dropdown-menu.columns-2{min-width:400px}.dropdown-menu.columns-3{min-width:600px}.dropdown-menu li a{padding:5px 15px;font-weight:300}.multi-column-dropdown{list-style:none}.multi-column-dropdown li a{display:block;clear:both;line-height:1.428571429;color:#333;white-space:normal}.multi-column-dropdown li a:hover{text-decoration:none;color:#262626;background-color:#f5f5f5}@media (max-width:767px){.dropdown-menu.multi-column{min-width:240px!important;overflow-x:hidden}}
 #slide {height: 40%}

@@ -1,14 +1,14 @@
 ---
 layout: default
-title: "Science for Nourishment - ¿Quienes somos?"
+title: "Science for Nourishment"
 ---
 <div class="header-wrap">
     <header class="containerHead header">
         <div class="row">
             <div class="col-md-12">
                 <div class="coverpost logo-text" style="background-image: url('/assets/background.jpg')">
-                    <h1>Science for Nourishment</h1><br>
-                    <h2 class="hidden-xs hidden-sm">¿Quiénes somos?</h2>
+                        <h1>Science for Nourishment</h1><br>
+                    <h2 class="hidden-xs hidden-sm">¿Quienes somos?</h2>
                 </div>
             </div>
         </div>
@@ -19,16 +19,11 @@ title: "Science for Nourishment - ¿Quienes somos?"
     <div class="container">
         <div class="row">
             <section class="col-md-8 posts" itemscope itemtype="http://schema.org/Blog">
-                {% for post in paginator.posts %}
-                <article class="post object" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
-                    <meta itemprop="name" content="{{post.title}}"/>
-                    <meta itemprop="image" content="{{post.image}}"/>
+                <article class="post object border" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
                     <div class="post-header">
                         <div class="post-title">
-                            <h2 itemprop="headline"><a href="{{post.url}}">{{post.title}}</a></h2>
-                        </div>
-                        <div class="post-date hidden-sm hidden-xs">
-                            <span title="{{post.date | date:"%Y" }}">{{post.date | date:"%d"}}</span>{{post.date | date:"%b"}}
+                            <
+                            <h2>Alejandro Pérez</h2>
                         </div>
                     </div>
                     <div class="post-content">
@@ -54,34 +49,70 @@ title: "Science for Nourishment - ¿Quienes somos?"
                                        onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="fa fa-google-plus gp-tooltip"></i></a>
                                 </li>
                             </ul>
-                        </div>
-                        <hr class="divider" />
+                        </div>  
                     </div>
+                </article>
+                <div class="postdivider">
+                    <hr>
+                </div>
                     {% endfor %}
+            <div class="fill"></div>
             </section>
             <div class="col-md-4">
-                <div class="about">
-                    <p>
-                        -- Descripcion --
-                    </p>
-                    <hr class="divider">
+                <div class="about border">
+                        <h2 style="text-align: center">Descripción</h2>
+                        <p>
+                        Desde aquí podrás informarte acerca de lo que hacemos, ya sea que estés incursionando en el ámbito de alimentos,
+                        seas un foodie, o simplemente tengas curiosidad de cómo se prepara tu bebida favorita, en este sitio podrás encontrar
+                        la información que buscas, y si no es así, puedes contactarnos.<br><br> Somos una comunidad que le agrada compartir, por lo que te invitamos
+                        a comentar y seguir nuestras publicaciones.<br><br>
+                        No olvides pasar por nuestro catálogo, donde podrás encontrar maravillosos productos y cursos especializados.
+                        </p>
+                    </div>
+                    <hr>
                     <div id="fb-root"></div>
-                        <script>
-                            (function (d, s, id) {
-                                var js, fjs = d.getElementsByTagName(s)[0];
-                                if (d.getElementById(id)) return;
-                                js = d.createElement(s); js.id = id;
-                                js.src = "//connect.facebook.net/es_MX/sdk.js#xfbml=1&version=v2.0";
-                                fjs.parentNode.insertBefore(js, fjs);
-                            }(document, 'script', 'facebook-jssdk'));
-                        </script>
-                        <div class="fb-like-box" data-href="https://www.facebook.com/sciencefornourishment/" data-width="280" data-height="320"
-                            data-colorscheme="light" data-show-faces="true" data-header="true"
-                            data-stream="false" data-show-border="true"></div>
-                        <div style="text-align: center" class="hidden-sm hidden-xs">
-                        </div>
+                    <script>
+                        (function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id)) return;
+                            js = d.createElement(s); js.id = id;
+                            js.src = "//connect.facebook.net/es_MX/sdk.js#xfbml=1&version=v2.0";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));
+                    </script>
+                    <div class="fb-like-box" data-href="https://www.facebook.com/sciencefornourishment/" data-width="280" data-height="320"
+                         data-colorscheme="light" data-show-faces="true" data-header="true"
+                         data-stream="false" data-show-border="true"></div>
+                    <div style="text-align: center" class="hidden-sm hidden-xs">
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
+<div class="posts-pagination">
+    <div class="container">
+        <div class="row">
+            {% if paginator.next_page %}
+            <div class="col-md-4 newer-posts">
+                <a href="{{ paginator.next_page_path }}" class="previous">
+                    <i class="fa fa-chevron-left"></i>
+                    <span>Art&iacute;culos anteriores</span>
+                </a>
+            </div>
+            {% endif %}
+            <div class="col-md-4 page-num">
+                <span>P&aacute;gina  {{ paginator.page }} de {{ paginator.total_pages }}</span>
+            </div>
+            {% if paginator.previous_page %}
+            <div class="col-md-4 older-posts">
+                <a href="{{ paginator.previous_page_path }}" class="next">
+                    <span>Art&iacute;culos nuevos</span>
+                    <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
