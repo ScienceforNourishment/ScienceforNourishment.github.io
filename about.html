@@ -144,17 +144,31 @@ title: "Science for Nourishment"
         </button>
       </div>
       <div class="modal-body">
-        <form action="mailto:marcol@example.com" method="post" enctype="text/plain">
-            Name:<br>
-            <input type="text" name="name"><br>
-            E-mail:<br>
-            <input type="text" name="mail"><br>
-            Comment:<br>
-            <input type="text" name="comment" size="50"><br><br>
-            <input type="submit" value="Send">
-            <input type="reset" value="Reset">
-</form>
+        <form class="form-horizontal" action="mailto:marcolpr98@gmail.com" method="post" enctype="text/plain">
+        <fieldset>
+            <div class="form-group">
+            <label class="col-md-4 control-label" for=""></label>  
+                <div class="col-md-4">
+                <input id="name" name="name" type="text" placeholder="Nombre" class="form-control input-md">    
+                </div>
+            </div>
+            <div class="form-group">
+            <label class="col-md-4 control-label" for=""></label>  
+                <div class="col-md-4">
+                <input id="" name="" type="text" placeholder="Correo electronico" class="form-control input-md"> 
+                </div>
+            </div>
+
+            <div class="form-group">
+            <label class="col-md-4 control-label" for=""></label>
+                <div class="col-md-4">                     
+                    <textarea class="form-control" id="" name="">Comentario</textarea>
+                </div>
+            </div>
+        </fieldset>
+        </form>
       </div>
+      
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
