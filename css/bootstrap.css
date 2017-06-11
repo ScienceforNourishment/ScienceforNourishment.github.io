@@ -5936,7 +5936,7 @@ button.close {
   border-bottom: 1px solid #e5e5e5;
 }
 .modal-header .close {
-  margin-top: -2px;
+  margin-top: -30px;
 }
 .modal-title {
   margin: 0;
