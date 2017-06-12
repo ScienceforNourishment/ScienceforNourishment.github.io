@@ -133,6 +133,9 @@ title: "Science for Nourishment"
                 <div class="col-md-8" style="text-align: center">
                     <h3>O si prefieres...</h3>
                     <h4>Envianos un mensaje por medio de nuestras redes sociales</h4>
+                    <a href="https://www.facebook.com/sciencefornourishment/" class="btn btn-lg btn-warning"><span class="fa fa-facebook-square"></span> Facebook</a>
+                    <a href="https://twitter.com/ScienceNourish" class="btn btn-lg btn-warning"><span class="fa fa-twitter-square"></span> Twitter</a>
+                    <a href="https://www.instagram.com/science_for_nourishment/" class="btn btn-lg btn-warning"><span class="fa fa-instagram"></span> Instagram</a>
             </div>
         </div>
 </div>
@@ -140,18 +143,36 @@ title: "Science for Nourishment"
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h3 class="modal-title" id="ModalLabel">Datos del correo</h3>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <h3 class="modal-title" style="text-align: center" id="ModalLabel">Datos del correo</h3>
+        <button type="button" class="close" style="margin-top: -40px"data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">×</span>
         </button>
       </div>
       <div class="modal-body">
         <form class="form-horizontal" action="http://formspree.io/marcolpr98@gmail.com" method="POST">
-            <input type="email" name="email" placeholder="Tu correo">
-            <textarea name="message" placeholder="Comentario"></textarea>
-            <button type="submit" class="btn btn-warning submit">Enviar</button>
-        </form>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="email"></label>  
+                <div class="col-md-5">
+                    <input id="email" name="email" type="text" placeholder="Tu correo electronico" class="form-control input-md" required="">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="comment"></label>
+                <div class="col-md-4">                     
+                    <textarea class="form-control" placeholder="Comentario" id="comment" name="comment"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="submit"></label>
+                <div class="col-md-4">
+                    <button id="submit" name="submit" class="btn btn-warning submit">Enviar</button>
+                </div>
+            </div>
+            </fieldset>
+            </form>
       </div>
     </div>
   </div>
+</div>
+</div>
 </div>
