@@ -4,6 +4,8 @@ title:  "Disculpe, hay una simbiosis en mi vaso"
 tags: tibicos
 author: alejandro
 ---
+## Disculpe, hay una simbiosis en mi vaso
+
 Después de estar pensando cual sería el mejor modo de iniciar con el blog, recordé que tenía que preparar un nuevo sustrato (alimento) para mis tibicos; así que dije, por qué no empezar contándoles sobre ellos.
 
 Resulta que estos pequeños son una de las maravillas de la ecología microbiana llamadas SCOBY (Symbiotic Colony Of Bacteria and Yeast), desde la primera vez que leí este nombre quede particularmente sorprendido; la simbiosis no es algo que te enseñen en microbiología alimentaria, se menciona en algunos casos pero en realidad es escaso. 
