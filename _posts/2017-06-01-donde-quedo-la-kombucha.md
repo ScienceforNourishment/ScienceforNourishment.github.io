@@ -5,7 +5,6 @@ author: alejandro
 tags: kombucha
 image: /assets/posts/010617/kombucha1.jpg, /assets/posts/010617/kombucha2.jpg
 ---
-## ¿Dónde quedó la kombucha?
 
 Desde hace ya algunas décadas que la fiebre de la kombucha llego a occidente, sin embargo, aquí en Guadalajara sigue siendo desconocida. Esto me ha parecido bastante extraño ya que es una bebida muy versátil (puedes hacer buenos mojitos con ella), de sabor sublime y que se le han atribuido múltiples beneficios.
 
