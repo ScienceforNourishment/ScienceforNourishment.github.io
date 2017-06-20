@@ -28,24 +28,24 @@ Como nunca he hablado sobre esto hare la aclaración aquí. Es importante que el
  
 **Formulación**
 
-Generalmente los porcentajes de los ingredientes llegan a variar, por lo que les comparto lo que yo utilizo para generar una bebida agradable sin un alto contenido de azúcar.
+Generalmente los porcentajes de los ingredientes llegan a variar, por lo que les comparto lo que yo utilizo para generar una bebida agradable sin que me mate el dulzor.
 
 Básicamente esto consiste en:
 
-* Tibicos  (próximamente el porcentaje)
-* Piloncillo (próximamente el porcentaje) 
-* Agua (próximamente el porcentaje)
+* Agua 1,5 L 
+* Tibicos - 100 g
+* Piloncillo - 55 g 
 
 **Proceso**
 
-En primer lugar debemos disolver nuestro piloncillo o cualquier tipo de azúcar no refinada que pensemos utilizar en el agua, a continuación, añadimos los tibicos al líquido y los dejamos reposar durante dos días. Bastante simple en realidad, sin embargo, hay una gran curva de aprendizaje.
+En primer lugar, debemos disolver en el agua nuestro piloncillo o cualquier tipo de azúcar no refinada que pensemos utilizar, a continuación, añadimos los tibicos al líquido y los dejamos reposar en un lugar fresco y sin luz solar directa. Bastante simple en realidad, sin embargo, hay una gran curva de aprendizaje.
 
 Probablemente se te ocurra calentar el agua para disolver más fácilmente el piloncillo, no obstante, debemos tener cuidado si hacemos esto, ya que los tibicos pueden morir si los introducimos en agua caliente. Un consejo es comprobar que la temperatura del agua no sea mayor que la de tu cuerpo 37ºC (esto se logra simplemente colocando la mano sobre el recipiente, cuando lo sientas fresco o simplemente no lo percibas cálido, está listo).
 
 ![Tibicos listos](/assets/posts/280517/tibicos2_28_05_17.jpg)
 ##### Lote con 2 días de fermentación
 
-A continuación, los dejaremos reposar durante un día a temperatura ambiente. Si te parece que aún es muy dulce, déjalo otro día. Pasado este tiempo, puedes encontrar algo como lo que se muestra en la imagen, un líquido de color más claro (dorado si llegaste a utilizar piloncillo), aroma pungente y sabor acido. Ahora es el momento, separa los tibicos del líquido con un colador de plástico o una manta de cielo y repite el proceso con los SCOBYs. El líquido resultante de la fermentación puedes disfrutarlo acompañado de fruta, hierbas o especias y de preferencia frio.
+A continuación, los dejaremos reposar durante un día a temperatura ambiente. Si te parece que aún es muy dulce, déjalo otro día. Entre más tiempo de fermentación, hay una mayor producción de ácido, y un menor contenido de edulcorantes. Pasado este tiempo, puedes encontrar algo como lo que se muestra en la imagen, un líquido de color más claro (dorado si llegaste a utilizar piloncillo), aroma pungente y sabor acido. Ahora es el momento, separa los tibicos del líquido con un colador de plástico o una manta de cielo y repite el proceso con los SCOBYs. El líquido resultante de la fermentación puedes disfrutarlo acompañado de fruta, hierbas o especias y de preferencia frio.
 
 
-Es posible realizar una segunda fermentación para agregar carbonatación y diferentes sabores, esperen la siguiente publicación para conocer más.
+Para aprender más sobre saborizar sus tibicos, esperen la siguiente publicación.
