@@ -16,7 +16,8 @@ authors:
   ivan:
     name: Ivan Moguel
     image: /assets/authors/ivan1.jpg
-    bio: Food scientist & hardcore foodie
+    bio: | 
+         Food scientist & hardcore foodie
          Estudiante de Lic. en Ciencia de los alimentos por la Universidad de Guadalajara, desde que tengo memoria busco hincarle el diente a cualquier cosa signifique novedad; podría comer cualquier cosa mientras sea legal y (virtualmente) inofensiva. 
          A través de mi amor por el té y a cualquier cosa que esté fermentada he focalizado mi afición a las distintas culturas del mundo, en particular las de Asia. 
          Creo que el fenómeno de la alimentación desde el punto de vista científico y cultural nutren también a la curiosidad.
@@ -24,7 +25,8 @@ authors:
   diego:
     name: Diego Gonzalez
     image: /assets/authors/diego1.jpg
-    bio: Originario de Hermosillo Sonora, México. 
+    bio: >
+         Originario de Hermosillo Sonora, México 
          Toda mi vida he tenido contacto con el mundo de los alimentos, trabajando en bares y restaurantes, así como incursionando en negocios propios. 
          Egresado en la Licenciatura en Ciencia de los Alimentos de la Universidad de Guadalajara, la microbiología aplicada al ramo alimenticio ha sido mi pasión, llevándome a colaborar en proyectos aplicados a seguridad alimentaria. Actualmente trabajo elaborando cerveza artesanal. 
          La vida me ha llevado por muchos recovecos del país en donde he aprendido que para llenar el corazón y la mente hace falta la buena comida, cada viaje es un placer culinario que vale la pena compartir. 
