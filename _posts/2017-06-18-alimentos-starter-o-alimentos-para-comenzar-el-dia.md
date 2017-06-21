@@ -3,7 +3,7 @@ layout: post
 title:  "Alimentos starter o alimentos para comenzar el día"
 tags: alimentacion
 author: diego
-image: /assets/posts/180617/pozol.jpg, /assets/posts/180617/calor.jpg
+image: /assets/posts/180617/pozol.jpg, /assets/posts/180617/calor1.jpg
 ---
 
 Últimamente ha surgido a mi mente la pregunta de qué alimentos debo de consumir en las mañanas para comenzar mi día con energía, en una búsqueda rápida en el ya viejo amigo (internet) pude encontrar un sinfín de dietas que aseguran harán hacerte sentir: de buen ánimo, vigoroso, inteligente, curarás tus enfermedades…
@@ -21,7 +21,7 @@ Encontramos otro ejemplo recorriendo el sur del país y llegando al encantador e
 
 Eso nos hace llegar hasta la ciudad de México donde podemos encontrar lo que para nosotros podría ser una aberración originada del ingenio chilango, las ya muy reconocidas y hasta icónicas tortas de tamal o “guajolotas”. Que si nos detenemos unos minutos a pensar sobre los comos y porqués de este alimento starter podemos concluir que su enorme contenido calórico y consistencia densa (además que si tomamos en cuenta que se consume junto con un atole elaborado con más masa) podemos notar que nuestro organismo asimilará muy lentamente todo ese alimento y que proveerá energía durante mucho tiempo al ser lentamente metabolizado por el sujeto en cuestión no necesitaría alimentarse durante su dura jornada laboral. 
 
-![Vendedora de pozol en Chiapas](/assets/posts/180617/calor.jpg)
+![Vendedora de pozol en Chiapas](/assets/posts/180617/calor1.jpg)
 ##### Vendedora de pozol en Chiapas
 
 En algunas zonas de Oaxaca es bastante conocido el café acompañado con un totopo (tortilla cocida a la leña en un horno de barro) la diferencia de este totopo a las tostaditas en forma de triángulo que conocemos y consumimos normalmente es que: consiste en lo que para nosotros sería una tostada circular con agujeros hechos con los dedos de la persona que elabora el alimento en cuestión que tienen la función de no dejar que la tortilla se infle al momento de estar al calor de la leña, tiene unos 30 cm de diámetro y la masa es colocada en las paredes del horno, se acostumbra a consumirlas ya frías. 
