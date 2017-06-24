@@ -5,7 +5,6 @@ tags: alimentacion
 author: diego
 image: /assets/posts/240617/chile.jpg, /assets/posts/240617/lechuga.jpg
 ---
-
 El chiste es aprovechar de la mejor manera nuestros recursos ¿no? Y cuando se trata de alimentos el tema no es menos importante, al parecer el ser humano está diseñado para perfeccionar, para mejorar todo lo que hace y lo que produce y a su vez la sociedad en la que vivimos, en constante crecimiento demanda productos con estándares de calidad más altos y de mayor cantidad. 
 
 Todos los días se desperdician toneladas de alimento que no cumple los estándares de calidad que el cliente exige lo cual, si lo pensamos un poco es una tontería a sabiendas que existe gente muriendo de hambre y no hablo de los niños que aparecen en NatGeo en países africanos (sin menos preciar su situación), hablo de nuestro México, en nuestro país la escasez de alimentos es una problemática latente.
