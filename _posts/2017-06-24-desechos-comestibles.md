@@ -3,13 +3,13 @@ layout: post
 title:  "Desechos comestibles, contradicciones de la vida"
 tags: alimentacion
 author: diego
-image: /assets/posts/240617/chile.jpg, /assets/posts/240617/lechuga.jpg
+image: /assets/posts/240617/chiles.jpg, /assets/posts/240617/lechuga.jpg
 ---
 El chiste es aprovechar de la mejor manera nuestros recursos ¿no? Y cuando se trata de alimentos el tema no es menos importante, al parecer el ser humano está diseñado para perfeccionar, para mejorar todo lo que hace y lo que produce y a su vez la sociedad en la que vivimos, en constante crecimiento demanda productos con estándares de calidad más altos y de mayor cantidad. 
 
 Todos los días se desperdician toneladas de alimento que no cumple los estándares de calidad que el cliente exige lo cual, si lo pensamos un poco es una tontería a sabiendas que existe gente muriendo de hambre y no hablo de los niños que aparecen en NatGeo en países africanos (sin menos preciar su situación), hablo de nuestro México, en nuestro país la escasez de alimentos es una problemática latente.
 
-![Chiles que no cumplen los estándares](/assets/posts/240617/chile.jpg)
+![Chiles que no cumplen los estándares](/assets/posts/240617/chiles.jpg)
 ##### Chiles que no cumplen los estándares
 
 En una conferencia a la que asistí hace unos días, el presentador era un exitoso productor y exportador de berries, un boom económico en el campo en los últimos años, puesto que nuestros vecinos en Gringolandia entendieron que los berries y los productos elaborados con estos por su alta capacidad antioxidante pues vaya que les digo, son un alimento funcional excelente. Por consecuencia, México que produce alimentos en épocas donde otros países no pueden (¿se dan cuenta de lo importante que es esto?) comenzó a producir este tipo de alimentos de manera intensiva y a enriquecer a las personas con el poder de invertir empleando fuerza de trabajo local y explotando tierras que originariamente no eran de ellos, en fin, un degenere bastante triste. Una historia bastante conocida, grandes extensiones de tierra empleadas para alimentar a los lugareños malbaratadas y convertidas en fábricas de comestibles donde las utilidades se quedan en manos de unos pocos y ahora el antes propietario se convierte en un peón mal pagado. 
