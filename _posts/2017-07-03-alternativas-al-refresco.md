@@ -3,7 +3,7 @@ layout: post
 title:  "Alternativas al refresco, no tan alternativas"
 author: alejandro
 tags: soda pop
-image: /assets/posts/030717/moras.jpg, /assets/posts/030717/refresco.jpg, /assets/posts/030717/colando.jpg /assets/posts/030717/macerando.jpg
+image: /assets/posts/030717/moras.JPG, /assets/posts/030717/refresco.JPG, /assets/posts/030717/colando.JPG, /assets/posts/030717/macerando.JPG
 ---
 
 A través del tiempo las personas se han visto atraídas por las bebidas gaseosas, esta ligera sensación de burbujeo nos hace sentir que el producto es fresco, atractivo y nos invita a dar un segundo sorbo.  Por ello, se han popularizado múltiples bebidas con esta característica, teniendo ejemplos conocidos como la cerveza o un tanto ignotos como el doogh, el cual es una bebida carbonatada a base de leche que se consume comúnmente en Oriente Medio.
@@ -33,7 +33,7 @@ Esta preparación es utilizando mora azul (arándano azul), pero puedes intentar
 * 1 pizca de sal (Lo que puedas agarrar con dos dedos)
 * 1/8 de cucharadita de levadura (De preferencia de champaña, sin embargo levaduras ale y de panificación también funcionan)
 
-![Moras listas para evolucionar](/assets/posts/030717/moras.jpg)
+![Moras listas para evolucionar](/assets/posts/030717/moras.JPG)
 ##### Moras listas para evolucionar
 
 **Proceso**
