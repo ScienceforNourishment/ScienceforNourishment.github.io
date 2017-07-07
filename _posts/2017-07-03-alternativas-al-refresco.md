@@ -2,7 +2,7 @@
 layout: post
 title:  "Alternativas al refresco, no tan alternativas"
 author: alejandro
-tags: soda pop
+tags: sodapop
 image: /assets/posts/030717/moras.JPG, /assets/posts/030717/refresco.JPG, /assets/posts/030717/colando.JPG, /assets/posts/030717/macerando.JPG
 ---
 
