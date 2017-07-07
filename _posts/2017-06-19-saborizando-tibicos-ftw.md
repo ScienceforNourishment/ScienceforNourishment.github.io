@@ -6,7 +6,7 @@ author: alejandro
 image: /assets/posts/190617/conta.jpg, /assets/posts/190617/limon.jpg
 ---
 
-Había prometido una entrada sobre saborizar tu bebida de tibicos (water kefir) y hoy es un buen día para hacerla. Si no han leído la publicación anterior sobre tibicos, deberían comenzar por tibicos first impressions.
+Había prometido una entrada sobre saborizar tu bebida de tibicos (water kefir) y hoy es un buen día para hacerla. Si no han leído la publicación anterior sobre tibicos, deberían comenzar por [Tibicos first impressions](https://sciencefornourishment.github.io/tibicos-first-impressions/ "Tibicos first impressions")
 
 Entonces, teniendo claro cómo realizar nuestro primer lote de esta bebida, vamos a asumir que tenemos nuestros tibicos previamente separados del fermento. En este punto es importante haber probado el producto, el cual debe ser ácido y tal vez ligeramente dulce. Su aroma es típico de fermentación, por lo que es difícil compararlo con algo más, no obstante, nunca debe tener un aroma o sabor desagradable, si este el caso, puede deberse a dos situaciones.
 
