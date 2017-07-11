@@ -13,11 +13,11 @@ El método de elaboración es bastante similar al que utilicé en [Alternativas 
 
 **Formulación**
 
-*35 g de Jengibre fresco
-*210 g de Agua
-*100 g de Azúcar
-*1/8 de cucharadita de Sal
-*60 g de jugo de limón
+* 35 g de Jengibre fresco
+* 210 g de Agua
+* 100 g de Azúcar
+* 1/8 de cucharadita de Sal
+* 60 g de jugo de limón
 
 ![Materias primas listas](/assets/posts/100717/tibi.JPG)
 ##### Materias primas listas
