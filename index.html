@@ -35,7 +35,7 @@ title: "Inicio"
                     <hr />
                     <div class="post-meta">
                         Fecha: <span itemprop="datePublished">{{post.date| date_to_string}}</span><br />
-                        <div class="share-icons">
+                        <div class="share-icons hidden-md-down">
                             <div class="share">
                                 <div class="icon first">
                                     <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{post.url}}"
@@ -51,7 +51,21 @@ title: "Inicio"
                                 </div>
                                 <div class="label">Compartir</div>
                             </div>
-                        </div>  
+                        </div>
+                        <div class="hidden-lg-up">
+                                <div class="icon first">
+                                    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{post.url}}"
+                                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><i class="fa fa-facebook fb-tooltip"></i></a>
+                                </div>
+                                <div class="icon">
+                                    <a href="https://twitter.com/share?text={{post.title}}&amp;url={{ site.url }}{{post.url}}"
+                                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter tw-tooltip"></i></a>   
+                                </div>
+                                <div class="icon last">
+                                    <a href="https://plus.google.com/share?url={{ site.url }}{{post.url}}"
+                                    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="fa fa-google-plus gp-tooltip"></i></a>
+                                </div>
+                        </div>
                     </div>
                 </article>
                 <div class="postdivider">
