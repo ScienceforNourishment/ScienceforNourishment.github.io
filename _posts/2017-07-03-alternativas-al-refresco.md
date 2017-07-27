@@ -3,7 +3,7 @@ layout: post
 title:  "Alternativas al refresco, no tan alternativas"
 author: alejandro
 tags: sodapop
-image: /assets/posts/030717/moras.JPG, /assets/posts/030717/refresco.JPG, /assets/posts/030717/colando.JPG, /assets/posts/030717/macerando.JPG
+image: /assets/posts/030717/moras.JPG
 ---
 
 A través del tiempo las personas se han visto atraídas por las bebidas gaseosas, esta ligera sensación de burbujeo nos hace sentir que el producto es fresco, atractivo y nos invita a dar un segundo sorbo.  Por ello, se han popularizado múltiples bebidas con esta característica, teniendo ejemplos conocidos como la cerveza o un tanto ignotos como el doogh, el cual es una bebida carbonatada a base de leche que se consume comúnmente en Oriente Medio.

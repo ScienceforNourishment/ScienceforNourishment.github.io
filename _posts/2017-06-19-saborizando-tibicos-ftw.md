@@ -3,7 +3,7 @@ layout: post
 title:  "Saborizando tibicos FTW"
 tags: tibicos
 author: alejandro
-image: /assets/posts/190617/conta.jpg, /assets/posts/190617/limon.jpg
+image: /assets/posts/190617/limon.jpg
 ---
 
 Había prometido una entrada sobre saborizar tu bebida de tibicos (water kefir) y hoy es un buen día para hacerla. Si no han leído la publicación anterior sobre tibicos, deberían comenzar por [Tibicos first impressions](https://sciencefornourishment.github.io/tibicos-first-impressions/ "Tibicos first impressions")

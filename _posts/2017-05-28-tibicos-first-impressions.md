@@ -3,7 +3,7 @@ layout: post
 title:  "Tibicos first impressions"
 author: alejandro
 tags: tibicos
-image: /assets/posts/280517/tibicos28_05_17.jpg, /assets/posts/280517/tibicos2_28_05_17.jpg
+image: /assets/posts/280517/tibicos2_28_05_17.jpg
 ---
 
 Continuando con la publicación pasada, les narrare sobre mi relación amorosa con los tibicos conocidos también como kéfir de agua.

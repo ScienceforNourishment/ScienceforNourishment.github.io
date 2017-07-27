@@ -3,7 +3,7 @@ layout: post
 title:  "Desechos comestibles, contradicciones de la vida"
 tags: alimentacion
 author: diego
-image: /assets/posts/240617/chiles.jpg, /assets/posts/240617/lechuga.jpg
+image: /assets/posts/240617/chiles.jpg
 ---
 El chiste es aprovechar de la mejor manera nuestros recursos ¿no? Y cuando se trata de alimentos el tema no es menos importante, al parecer el ser humano está diseñado para perfeccionar, para mejorar todo lo que hace y lo que produce y a su vez la sociedad en la que vivimos, en constante crecimiento demanda productos con estándares de calidad más altos y de mayor cantidad. 
 

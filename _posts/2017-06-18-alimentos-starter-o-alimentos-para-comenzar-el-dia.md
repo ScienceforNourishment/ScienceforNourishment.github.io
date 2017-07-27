@@ -3,7 +3,7 @@ layout: post
 title:  "Alimentos starter o alimentos para comenzar el día"
 tags: alimentacion
 author: diego
-image: /assets/posts/180617/pozol.jpg, /assets/posts/180617/calor1.jpg
+image: /assets/posts/180617/pozol.jpg
 ---
 
 Últimamente ha surgido a mi mente la pregunta de qué alimentos debo de consumir en las mañanas para comenzar mi día con energía, en una búsqueda rápida en el ya viejo amigo (internet) pude encontrar un sinfín de dietas que aseguran harán hacerte sentir: de buen ánimo, vigoroso, inteligente, curarás tus enfermedades…

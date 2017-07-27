@@ -3,7 +3,7 @@ layout: post
 title:  "El otro lado del SCOBY"
 author: alejandro
 tags: kombucha
-image: /assets/posts/120617/120617-1.jpg, /assets/posts/120617/120617-2.jpg
+image: /assets/posts/120617/120617-2.jpg
 ---
 
 Anteriormente les hablaba sobre los beneficios del consumo de kombucha, sin embargo, ¿qué sucede del otro lado del SCOBY?
