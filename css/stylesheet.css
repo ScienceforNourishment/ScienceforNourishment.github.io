@@ -1,0 +1,51 @@
+/*Global*/
+
+body {
+    background-color: white;
+    font-family: 'Bookman Old Style';
+    font-size: medium;
+    color: #000;
+    text-align: left;
+}
+    
+h1 {
+    font-family: 'Trajan Pro';
+    font-size: x-large;
+    color: #000;
+    margin: auto;
+    text-align: center;
+    background-color: #f1caf5;
+}
+h2 {
+    font-family: 'Trajan Pro';
+    font-size: large;
+    color: #000;
+    margin: auto;
+    text-align: center;
+    background-color: #f1caf5;
+}
+h3 {
+    font-family: 'Trajan Pro';
+    font-size: medium;
+    color: #000;
+    margin: auto;
+    text-align: center;
+    background-color: #f1caf5;
+}
+p#titulo{
+    background-color:white;
+    font-family: MoolBoran;
+    font-size: xx-large;
+    color:#f2a0f8;
+    text-align: left;
+}
+table, th, th {table-layout: auto;
+    background-color: #fce1fb;
+    border: 1px solid black ; color: #f2a0f8; width:100px;
+    border-collapse: collapse;
+    font-size: large;
+    color: #000;
+    font-family: MoolBoran;  
+    padding: 20px;
+    border-spacing: 20px;
+}

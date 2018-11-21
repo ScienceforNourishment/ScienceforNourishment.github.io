@@ -1,15 +1,8 @@
-language: node_js
-sudo: required
-dist: trusty
-node_js:
-- node
-notifications:
-  email: false
-  slack: unolabs:cbusXPH6pBwZ35rVDzi4k4ve
-install:
-- npm install
-- npm i -g gulp-cli
+language: ruby
+rvm:
+  - 2.2.2
 script:
-- npm run lint
-- npm run build
-- npm run coverage
+  - gem install html-proofer && bundle exec jekyll build && bundle exec htmlproofer ./_site --only-4xx --disable-external
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
